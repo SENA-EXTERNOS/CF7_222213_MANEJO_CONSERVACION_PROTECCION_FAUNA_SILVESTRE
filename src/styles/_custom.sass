@@ -1,9 +1,9 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 10%
+    right: 10%
+
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
@@ -17,3 +17,276 @@
 
   100%
     transform: translateY(0px)
+
+//Introduccion
+
+.bgr1-intro
+  background-image: url(../assets/curso/temas/introduccion/bgr1.svg)
+  //background-size: 100% 100%
+
+@media screen and ( max-width: 500px )
+  .bgr1-intro
+    background-image: url(../assets/curso/temas/introduccion/bgr1.svg)
+    
+
+//tema 1
+
+//Introduccion
+
+.bgr1-tema1
+  background-image: url(../assets/curso/temas/tema1/bgr1.svg)
+  background-size: cover
+
+@media screen and ( max-width: 500px )
+  .bgr1-tema1
+    background-image: url(../assets/curso/temas/tema1/bgr1.svg)
+    background-size: auto 100%
+
+.bgr2-tema1
+  background-image: url(../assets/curso/temas/tema1/bgr2.svg)
+  background-size: cover
+
+@media screen and ( max-width: 500px )
+  .bgr2-tema1
+    background-image: url(../assets/curso/temas/tema1/bgr2.svg)
+    background-size: auto 100%
+
+.width-tarjeta
+  background-color: #F0F0F4 !important
+  height: 415px
+
+.bgr-tarjeta2
+  background-color: #EADBCC !important
+
+.bgr-tarjeta-color
+  color: $black !important
+
+.bgr3-tema1
+  background-image: url(../assets/curso/temas/tema1/bgr3.svg)
+  background-size: cover
+
+@media screen and ( max-width: 500px )
+  .bgr3-tema1
+    background-image: url(../assets/curso/temas/tema1/bgr3.svg)
+    background-size: auto 100%
+  
+
+///// Custom acordeon A tipo A -------------------------------------- 
+.tarjeta.acordeonA
+  background-color: #ADD7D3
+
+.acordion__accion__btn--a
+  background-color: #fff !important
+
+.acordion__activo
+  background-color: #D7ECEA !important
+
+.bloque-color
+  &:before 
+    background-color: #CDF3C5 !important
+
+.bloque-tema2
+  &:before 
+    right: 65% !important
+    bottom: 60% !important
+
+.bgr1-tema2
+  background-image: url(../assets/curso/temas/tema2/bgr2.svg)
+  background-size: 100% 100%
+
+@media screen and ( max-width: 500px )
+  .bgr1-tema2
+    background-image: url(../assets/curso/temas/tema2/bgr2.svg)
+    background-size: auto 100%
+
+.lista-ul--color li > i:first-of-type 
+    color: #3BC192
+
+///// Linea tiempo D --------------------------------------
+.linea-tiempo-d__item__content.tarjeta.tarjeta--gris, .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+  background-color: #F7D7C2
+
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+  .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+    background-color: #FDF5F0
+
+.linea-tiempo-d.color-secundario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number 
+    background-color: #FDF5F0
+    color: $black
+
+.bgr2-tema2
+  background-color: #F9E1D2
+  background-size: 100% 100%
+  border-radius: 22px
+
+.img-icon-tema2
+  position: absolute
+  width: 8%
+  margin-top: -4%
+  margin-left: -6%
+
+.clr-paleYellow
+  background-color: #DBEDEB
+
+.tabs-a__tab 
+    background-color: #E8E8E8
+
+.linea-tiempo-d__item__dots:after 
+    border-left: 5px dotted #E26C1E
+
+.bgr1-tema3
+  background-image: url(../assets/curso/temas/tema3/bgr1.svg)
+  background-size: cover
+
+@media screen and ( max-width: 500px )
+  .bgr1-tema3
+    background-image: url(../assets/curso/temas/tema3/bgr1.svg)
+    background-size: auto 100%
+
+//// Tarjetas --------------------------------------
+.crd
+  &.brd--rad
+    border-radius: 20px 
+  &.crd--grayGrad
+    padding: 2rem
+    height: 100%
+    background-color: #F6F6F6
+    border-radius: 15px    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+    &:hover      
+      background: linear-gradient(180deg, rgba(25,137,226,1) 0%, rgba(10,81,139,1) 100%)
+      h4, p
+        color: white 
+      .bottomCircle
+        &::before
+          background-color: #FED981
+  &.crd--blue
+    background-color: #B1DBEA
+
+  &.crd--border
+    border: 4px solid $color-acento-botones
+    border-radius: 20px
+
+.bottomCircle
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    width: 115px
+    height: 115px
+    background-color: #116EB9
+    border-radius: 999px
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5 
+    color: #D7ECEA
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #D7ECEA
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--avatarHorizontal2
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5 
+    color: #7F4FC7
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #E3F7F5
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--first
+  &::before 
+    background-color: #E3F7F5 !important
+
+.crd--last
+  &::before 
+    background-color: #D7ECEA !important
+
+.crd--first
+  &::before 
+    border-top-left-radius: 30px
+.crd--last
+  &::before 
+    border-bottom-left-radius: 30px
+
+.avatar
+  position: absolute
+  bottom: 0
+  right: -4rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+
+.img250
+  width: 445px
+  margin-left: -13%
+
+.img-tema3
+    position: absolute
+    width: 34%
+    margin-top: -130px
+    margin-left: 7px
+    
+@media screen and ( max-width: 500px )
+  .img-tema3
+    position: inherit
+    width: 100%
+    margin-top: 0px
+    margin-left: 0px
+
+@media screen and ( max-width: 500px )
+  .avatar-1
+    background-color: #E3F7F5 !important
+
+@media screen and ( max-width: 500px )
+  .avatar-2
+    background-color: #D7ECEA !important
+  
+@media screen and ( max-width: 500px )
+  .texto-1
+    margin-left: 12%
+
+@media screen and ( max-width: 500px )
+  .imagen-1
+    width: 50%
+    margin-left: 30%
+
+.bgr1-final-tema3
+  background-image: url(../assets/curso/temas/introduccion/bgr1.svg)
+
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+    color: #fff
+
+
+
