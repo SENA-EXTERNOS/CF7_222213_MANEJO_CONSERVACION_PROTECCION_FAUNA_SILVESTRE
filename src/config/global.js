@@ -31,60 +31,14 @@ export default {
         numero: '1',
         titulo: 'Afectaciones y riesgos de la fauna silvestre',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Cambio climático',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Especies exóticas invasoras',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Tráfico ilegal',
-            hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Marco regulatorio y sancionatorio',
-            hash: 't_1_4',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Monitoreo técnico y participativo de la fauna silvestrez',
+        titulo: 'Monitoreo técnico y participativo de la fauna silvestre',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Parámetros y medición',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Instrumentos y herramientas',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Registros',
-            hash: 't_2_3',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
@@ -92,38 +46,6 @@ export default {
         numero: '3',
         titulo: 'Conservación, protección y manejo de la fauna silvestre',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Estrategias de prevención',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Estrategias de manejo y gestión',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Procedimientos y disposición final y preventiva',
-            hash: 't_3_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.4',
-            titulo: 'Turismo de naturaleza',
-            hash: 't_3_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.5',
-            titulo: 'Estrategias de divulgación',
-            hash: 't_3_5',
-          },
-        ],
       },
     ],
     subMenu: [
@@ -168,32 +90,35 @@ export default {
   },
   complementario: [
     {
-      tema: 'Monitoreo participativo',
+      tema: 'Monitoreo técnico y participativo de la fauna silvestre',
       referencia:
-        'MAE-CEPP. (2016). <em>Monitoreo biológico. Curso: Gestión de la vida silvestre en el Ecuador</em>. Segunda edición. Quito. ',
-      tipo: '',
-      link: '',
+        'Ministerio del Ambiente (2016).<b> Monitoreo biológico.</b> Curso: <b>Gestión de la vida silvestre en el Ecuador.</b> ',
+      tipo: 'Guía en pdf',
+      link:
+        'https://es.slideshare.net/crissanty1606/unidad-3-monitoreo-biologico',
     },
     {
-      tema: 'Material divulgativo ',
+      tema: 'Conservación, protección y manejo de la fauna silvestre',
       referencia:
-        'Franquesa-Soler, M. (S.f). <em>Los medios como herramienta en la conservación de la biodiversidad.</em> ',
-      tipo: '',
-      link: '',
+        'Franquesa, M. (s.f.). <b>Los medios como herramienta en la conservación de la biodiversidad. INECOL. </b>',
+      tipo: 'Página web',
+      link:
+        'https://www.inecol.mx/inecol/index.php/es/ct-menu-item-25/ct-menu-item-27/17-ciencia-hoy/160-los-medios-como-herramienta-en-la-conservacion-de-la-biodiversidad ',
     },
     {
-      tema: 'Disposición final y preventiva ',
+      tema: 'Conservación, protección y manejo de la fauna silvestre',
       referencia:
-        'Conrado E, LJ. (2019). <em>Validación de protocolos de manejo de fauna silvestre en el hogar de paso del centro agroecológico en el departamento de La Guajira</em>. [Tesis de pregrado, Universidad Cooperativa de Colombia]. ',
-      tipo: '',
-      link: '',
+        'Conrado, L. (2019). <b>Validación de protocolos de manejo de fauna silvestre en el hogar de paso del centro agroecológico en el departamento de La Guajira. </b>[Tesis de pregrado, Universidad Cooperativa de Colombia, Colombia]. Repositorio Institucional UCC.',
+      tipo: 'Tesis ',
+      link:
+        'https://repository.ucc.edu.co/bitstream/20.500.12494/10576/1/2019_validacion_protocolos.pdf',
     },
     {
-      tema: 'Manejo de fauna silvestre ',
+      tema: 'Conservación, protección y manejo de la fauna silvestre ',
       referencia:
-        'Centro Federado de Ciencias Forestales-UNALM. (4 de mayo de 2020). <em>VIDEOCONFERENCIA: "Experiencias en Manejo de Fauna Silvestre" - Mg. Sc. Joao Freitas</em>. [Archivo de vídeo]. YouTube. ',
-      tipo: '',
-      link: '',
+        'Centro Federado de Ciencias Forestales-UNALM (2020). <b>VIDEOCONFERENCIA: "Experiencias en Manejo de Fauna Silvestre" - Mg. Sc. Joao Freitas</b> [video]. YouTube. ',
+      tipo: 'Videoconferencia ',
+      link: 'https://www.youtube.com/watch?v=vxjiqXod3mQ ',
     },
   ],
   glosario: [
@@ -250,7 +175,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Arnaud G. (2020). <em>Estrategias de conservación de los vertebrados de México.</em>',
+        'Arnaud, G. (2020).<em> Estrategias de conservación de los vertebrados de México. </em>',
       link:
         'https://www.researchgate.net/profile/Gustavo-Arnaud/publication/348340238_Estrategia_conservacion_de_vertebrados_en_Mexico/links/5ff8f28f299bf1408880eb92/Estrategia-conservacion-de-vertebrados-en-Mexico.pdf',
     },
@@ -262,19 +187,19 @@ export default {
     },
     {
       referencia:
-        'Chacón C, O. (2021). <em>La educación ambiental frente al cambio climático y sus efectos sobre la biodiversidad.</em> ',
+        'Chacón, O. (2021).<em> La educación ambiental frente al cambio climático y sus efectos sobre la biodiversidad, 32(2). </em> ',
       link:
         'https://revistas.uned.ac.cr/index.php/biocenosis/article/view/3904/5174',
     },
     {
       referencia:
-        'Corredor C, MD. (2022). <em>Elementos para el estudio de la protección de animales silvestres ante la comisión de los delitos de caza, comercialización y tráfico: una aproximación normativa y doctrinal</em>. [Tesis especialización, Universidad Jorge Tadeo Lozano]',
+        'Corredor, M. (2022). <em>Elementos para el estudio de la protección de animales silvestres ante la comisión de los delitos de caza, comercialización y tráfico:</em> una aproximación normativa y doctrinal. [Tesis especialización, Universidad Jorge Tadeo Lozano,Colombia] ',
       link:
         'https://expeditiorepositorio.utadeo.edu.co/bitstream/handle/20.500.12010/27618/Trabajo%20de%20Grado-%20Daniela%20Corredor.pdf?sequence=1&isAllowed=y',
     },
     {
       referencia:
-        'OLACEFS. (2021). <em>El tráfico de especies como un caso paradigmático de corrupción transnacional: potenciales aportaciones del control externo gubernamental.</em>',
+        'Organización Latinoamericana y del Caribe de Entidades Fiscalizadoras Superiores (2021). <em>Olacefs.</em> Lucha contra la Corrupción Transnacional.',
       link:
         'https://olacefs.com/ctct/document/el-trafico-de-especies-como-un-caso-paradigmatico-de-corrupcion-transnacional-potenciales-aportaciones-del-control-externo-gubernamental/',
     },

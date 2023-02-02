@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Monitoreo técnico y participativo de la fauna silvestrez
+      h1 Monitoreo técnico y participativo de la fauna silvestre
 
     .row.justify-content-center.align-items-center.p-4.bgr1-intro.text-white
       .col-lg-7.p-4
@@ -68,7 +68,7 @@
 
           li 
             i.fas.fa-atom
-            p.mb-0 Los datos obtenidos se deberán almacenar y analizar de manera local y deberán estar siempre disponibles para la comunidad (Fundación Natura & Amazonia 2.0 Colombia, 2020). 
+            p.mb-0 Los datos obtenidos se deberán almacenar y analizar de manera local, y estar siempre disponibles para la comunidad.
 
     .row.mt-5
       p Como se pudo evidenciar, la participación de la comunidad es fundamental en este proceso y por ello se han definido niveles de participación en donde esta se ve involucrada: puede ser desde un inicio, en la formulación del proyecto, y en todas las fases que este implica hasta llegar a una publicación o una participación en ciertas etapas del proyecto. Estos niveles se dividen en:
@@ -86,12 +86,7 @@
 
           p(numero="3" titulo="Cocreación") Incluye la definición de un tema de trabajo y la recopilación de información; es cuando se construyen, analizan y se da muestra de los resultados, tanto a la comunidad donde se realizó el trabajo o a una externa (por ejemplo, la academia).
 
-    separador
-
-    #t_2_1
-
-    .titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 2.1 Parámetros y medición
+    h2.mt-5 Parámetros y medición
 
     .row.justify-content-center.align-items-center
       .col-lg-8
@@ -123,7 +118,7 @@
               img(src="@/assets/curso/temas/tema2/img7.svg", alt="alt").img-icon-tema2
           .col-11
             h5 Organizar
-            p Organizar grupos de trabajo para dibujar el mapa territorial destacando las cuencas hidrográficas, los tipos de bosques y asentamientos, comunidades vecinas, límites, acceso a zonas de caza y pesca, recolección de residuos, entre otros, y de acuerdo con el conocimientos que se tienen de la zona.
+            p Organizar grupos de trabajo para dibujar el mapa territorial, destacando las cuencas hidrográficas, los tipos de bosques y asentamientos, comunidades vecinas, límites, acceso a zonas de caza y pesca, recolección de residuos, entre otros, y de acuerdo con el conocimiento que se tiene de la zona.
 
     .row.justify-content-center.align-items-center.mt-3
       .col-lg-9
@@ -141,7 +136,7 @@
 
         .bloque-texto-f.color-secundario.p-4.bloque-color.bloque-tema2
           .bloque-texto-f__texto
-            p.mb-0 El registro de información etnozoológica es importante ya que permite evidenciar el conjunto de conocimientos, prácticas de uso, manejo y conservación de la vida silvestre. También el conocimiento etnozoológico posibilita la generación de conciencia, la gestión sostenible y la recuperación ―en los casos que se requiera― de la fauna y la flora. Dicha información puede provenir de fuentes diversas como adultos mayores, cazadores, pescadores, agricultores y artesanos que hayan vivido durante mucho tiempo en una zona y hacen uso de estrategias como:
+            p.mb-0 El registro de información etnozoológica es importante, porque permite evidenciar el conjunto de conocimientos, prácticas de uso, manejo y conservación de la vida silvestre. También el conocimiento etnozoológico posibilita la generación de conciencia, la gestión sostenible y la recuperación, en los casos que se requiera, de la fauna y la flora. Dicha información puede provenir de fuentes diversas como adultos mayores, cazadores, pescadores, agricultores y artesanos, los cuales hayan vivido durante mucho tiempo en una zona y hacen uso de estrategias como:
 
       .col-lg-4
         figure
@@ -158,8 +153,8 @@
             h4 Registro de historias orales
             p Es el registro de datos a través de historias o relatos de los pobladores de la zona. No se trata de una técnica en la que el investigador aplica una entrevista o encuesta; por el contrario, se trata de una narración libre de parte de quien la cuenta y que brinda la posibilidad al investigador de ser parte de una historia más completa por la cantidad de detalles.
 
-          .tarjeta.clr-paleYellow.p-4(titulo="Test Proyectivos")
-            h4 Test Proyectivos
+          .tarjeta.clr-paleYellow.p-4(titulo="<i>Test </i>Proyectivos")
+            h4 <i>Test</i> Proyectivos
             p Consiste en presentar una foto, un dibujo o una ilustración para que un entrevistado o grupo de entrevistados hablen espontáneamente de lo que identifican en estos y luego con tareas y preguntas sencillas guiar el tema de análisis, permitiendo identificar aspectos de la historia natural de un lugar posibilitando la implementación de estrategias que permitan clasificar a las especies presentes en un ecosistema.
 
           .tarjeta.clr-paleYellow.p-4(titulo="Entrevistas")
@@ -169,7 +164,7 @@
 
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-8
-        p Para ampliar información y encontrar ejemplos lo invitamos a revisar el material complementario.
+        p Para ampliar información y descubrir ejemplos, lo invitamos a revisar el material complementario propuesto.
 
         p #[b Registros participativos de caza, pesca y recolección de productos vegetales no maderables:]
 
@@ -180,26 +175,16 @@
           img(src="@/assets/curso/temas/tema2/img10.svg", alt="alt")
 
 
-    separador
-
-    #t_2_2
-
-    .titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 2.2 Instrumentos y herramientas
+    h2 Instrumentos y herramientas
 
     .row
       p Son aquellos necesarios para evaluar cómo se está aplicando el monitoreo participativo y constatar que todos sus integrantes estén cumpliendo con las responsabilidades que les fueron asignadas.
 
-    .row.justify-content-center.align-items-center.bgr2-tema1
+    .row.justify-content-center.align-items-center.bgr2-tema1.mb-5
       .col-lg-12
         SlyderB(:datos="datosSlyder").p-4
 
-    separador
-
-    #t_2_3
-
-    .titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 2.3 Registros
+    h2 Registros
 
     .row
       p Son el resultado de un proceso organizado y bien ejecutado denominado cadena de gestión de datos que incluye todos los datos y metadatos producto del proceso de monitoreo que son digitalizados y publicados para proporcionar información confiable para la ciencia y las comunidades en lo que se refiere a la comprensión del medio ambiente y al fomento y fortalecimiento de estos procesos. Para ello se deben seguir los siguientes pasos:
@@ -230,8 +215,15 @@
       .col-lg-7.p-4
         p.text-white En una tabla, organizada en filas, se consignan los datos a registrar del componente: planificación, documentación, digitalización, control de calidad y publicación; en las columnas, el nivel de participación, metodología, resultados esperados y ¿cómo medirás? En la primera columna se determinará el nivel de participación que tendrá cada componente (contribución, colaboración y cocreación), lo que ayudará a definir los métodos para la intervención que asegurarán la participación, tales como talleres, material educativo, metodologías participativas de levantamiento de información. En la columna de resultados esperados se consignarán los conocimientos, herramientas, técnicas o habilidades que los participantes adquirieron en el proceso, y en ¿cómo medirás? Se tendrán en cuenta los indicadores que se usarán para medir los resultados, ya sean cualitativos, cuantitativos y las fórmulas y medios relacionados.
 
+        p.text-white Analice el siguiente formato de tabla y asimile cada elemento explicado:
+
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-12
+        .titulo-sexto.color-primario(data-aos='fade-right')
+          h5 Figura 1
+          p.mb-0
+            em Ejemplo de tabla de registro 
+          
         .tabla-a.color-primario
           table
             thead

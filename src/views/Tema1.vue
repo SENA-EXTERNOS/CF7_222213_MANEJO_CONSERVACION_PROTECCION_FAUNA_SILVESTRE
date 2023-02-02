@@ -39,12 +39,7 @@
     .row.mt-5
       p Algunas características importantes acerca del cambio climático son relevantes para comprender cómo incide en los procesos de desarrollo de cuidado y conservación de la fauna silvestre, veamos:
 
-    separador
-
-    #t_1_1
-
-    .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 1.1 Cambio climático
+    h2 Cambio climático
 
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-12
@@ -58,20 +53,14 @@
       .col-lg-12
         SlyderB(:datos="datosSlyder").p-4
 
-    .row.mt-5
-      p Una vez conocidas las características del cambio climático pasaremos a ver por qué es importante conocer las principales especies exóticas invasoras que pueden provocar una pérdida de diversidad biológica.
 
-    separador
-
-    #t_1_2
-
-    .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 1.2 Especies exóticas invasoras
+    h2.mt-5 Especies exóticas invasoras
 
     .row
+      p Una vez conocidas las características del cambio climático, pasaremos a ver por qué es importante conocer las principales especies exóticas invasoras que pueden provocar una pérdida de la diversidad biológica.
       p Las especies exóticas invasoras son una de las principales causas de pérdida de diversidad biológica.
 
-    SlyderF(columnas="col-lg-6 col-xl-4").mt-5
+    SlyderF(columnas="col-lg-6 col-xl-4").my-5
       .tarjeta.color-acento-botones.p-4.width-tarjeta
         .row.justify-content-center.mb-3
           .col-8
@@ -102,15 +91,8 @@
             img(src='@/assets/curso/temas/tema1/img12.svg' alt='AvatarTop')
         p.text-center También, muchos ecosistemas pierden su diversidad biológica, y esta pérdida termina afectando el bienestar humano por la escasez de alimentos que conlleva a desnutrición, hambrunas y enfermedades. 
 
-    .row.mt-5
-      p Ahora veremos cómo el tráfico ilegal también es un factor determinante en todo lo que tiene que ver con los esfuerzos de cuidado y conservación de la fauna silvestre.
-    
-    separador
-
-    #t_1_3
-
-    .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 1.3 Tráfico ilegal
+   
+    h2 Tráfico ilegal
 
     .row
       p El tráfico ilegal de fauna silvestre es una actividad mercantil que se da por la extracción ilícita de especies amenazadas de su ambiente natural y su comercialización ilegal.
@@ -149,15 +131,9 @@
               p.bgr-tarjeta-color.text-center Por tanto, la práctica del tráfico ilegal de fauna es una amenaza para la biodiversidad porque acelera las tasas de extinción. Los elefantes, los tiburones y los tigres son algunos de los animales más amenazados en el mundo.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img16.svg')})`}")
 
-    .row.mt-5
-      p Así mismo, resulta muy importante conocer las diferentes leyes e iniciativas sobre el tratamiento de las situaciones que pueden afectar la conservación de la fauna silvestre, a continuación se nombran algunas:
 
-    separador
 
-    #t_1_4
-
-    .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 1.4 Marco regulatorio y sancionatorio
+    h2.mt-5 Marco regulatorio y sancionatorio
 
     .row
       p Desde 1972 hasta el 2021 en Colombia se han expedido once leyes y decretos relacionados con la z silvestre. Cada cual reglamenta:

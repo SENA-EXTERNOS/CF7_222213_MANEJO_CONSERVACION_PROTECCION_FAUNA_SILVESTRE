@@ -7,13 +7,12 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
-            img(src="@/assets/template/completar.svg", alt="Texto que describa la imagen")
+            img(src="@/assets/template/completar-.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Completar
-        p Apreciado aprendiz, la presente actividad tiene como objetivo revisar y poner a prueba los conocimientos adquiridos durante este componente de formación, lo invitamos a leer con detenimiento cada una de las preguntas y digitar en los espacios la palabra que dé sentido a cada oración.
- 
-        P.MB-4 Esto permite identificar el concepto específico dentro de un enunciado general promoviendo el análisis y la contextualización de la pregunta.
+          h2 Manejo, conservación y protección de fauna silvestre
+        p Esta actividad le permitirá determinar el grado de apropiación de los contenidos del componente formativo.
+        p De acuerdo con la definición planteada, digite correctamente, en el espacio vacío, la palabra o términos que completarían el sentido de tal proposición.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

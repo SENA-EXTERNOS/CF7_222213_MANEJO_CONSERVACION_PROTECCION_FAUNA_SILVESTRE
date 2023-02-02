@@ -7,12 +7,6 @@
         span 3
       h1 Conservación, protección y manejo de la fauna silvestre
 
-
-    #t_3_1
-
-    .titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 3.1 Estrategias de prevención
-
     .row.justify-content-center.align-items-center.p-4.bgr1-intro.text-white
       .col-lg-7.p-4
         p Aunque son diversas las situaciones que afectan la fauna, el tráfico ilegal es una de las más comunes y a la que más se le ha hecho frente desde hace tiempo. Para entender la práctica del tráfico ilegal de fauna es necesario dividirlo en tres fases: la cacería, recolección, tala o captura con un fin comercial; el acopio, preparación o traslado de los ejemplares en el país de origen y el país destino; y la llegada al consumidor final. En cada una de las etapas intervienen actores públicos y privados que se benefician de dichas acciones y obtienen ganancias por permitir el tránsito entre países o la venta de especies vedadas y amenazadas. 
@@ -58,12 +52,9 @@
             figure
               img(src='@/assets/curso/temas/tema3/img5.svg', alt='Texto que describa la imagen')  
     
-    separador
+    h2.mt-5 Estrategias de manejo y gestión
 
-    #t_3_2
-
-    .titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 3.2 Estrategias de manejo y gestión
+    p.mb-5 Comprenda todos los aspectos claves sobre las estrategias de manejo y gestión de la conservación y protección de la fauna silvestre, que se muestran en el siguiente video; obsérvelo con suma atención y procure llevar registro de lo más destacado, en su libreta personal de apuntes:
 
     .row.justify-content-center.align-items-center.mb-5      
       .col-lg-12(data-aos="fade-left")     
@@ -71,17 +62,12 @@
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)            
               
-    separador
-
-    #t_3_3
-
-    .titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 3.3 Procedimientos y disposición final y preventiva
+    h2 Procedimientos y disposición final y preventiva
 
     .row
-      p La disposición final o preventiva de fauna silvestre se hará solo con aquellas especies que no pueden ser reubicadas en su medio natural, no pueden ubicarse en centros de atención o valoración o en centros de rehabilitación. La disposición final se puede dar en: 
+      p La disposición final y preventiva de la fauna silvestre se llevará a cabo, solo con aquellas especies que no pueden ser reubicadas en su medio natural y no pueden ubicarse en centros de atención o valoración, o en <b>centros de rehabilitación.</b> La disposición final se puede dar en:
     
-      p #[b Tipos de centros de rehabilitación]
+     
 
     .row.justify-content-center.mb-5
       .col-lg-12.position-relative
@@ -121,13 +107,8 @@
                 img(src="@/assets/curso/temas/tema3/img10.svg", alt="alt").imagen-1
             .col-lg-7.col-xs-12
               p.mt-3.texto-1 Tenedores de fauna autorizados por la autoridad ambiental, quienes no pueden exhibir, liberar o tener los especímenes con algún fin comercial, pues los ejemplares seguirán siendo propiedad del Estado y este podrá exigir su devolución cuando así lo desee. Es importante aclarar que los especímenes entregados a cualquiera de estos entes deberán ser debidamente marcados para tal fin.
-
-    separador
-
-    #t_3_4
-
-    .titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 3.4 Turismo de naturaleza
+    br
+    h2.mt-5 Turismo de naturaleza
 
     .row.justify-content-center.align-items-center
       .col-lg-8
@@ -191,22 +172,17 @@
               p.bgr-tarjeta-color.text-center tienen que ver con el involucramiento de los ecoturistas en labores de agricultura o ganadería que buscan el fortalecimiento de la economía rural. Las actividades de turismo rural incluyen la participación en las tareas diarias de los pobladores rurales.
               
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img16.svg')})`}")
-   
-    .row.mt-5
-      p #[b Ecoturismo]
+    br
+    h3.mt-5 Ecoturismo
 
+    .row.mt-5      
       p Es aquel que se realiza con objetivos de recreación, esparcimiento y educación del visitante por medio de la observación y el estudio de los valores naturales y los aspectos culturales que se relacionan con ellos. Este concepto define una actividad específica y la diferencia de otras actividades de turismo de naturaleza. Dentro del ecoturismo se encuentran diferentes actores que van desde entes gubernamentales hasta los pobladores de un ecosistema. Sus funciones se clasifican en:
 
-    .row.justify-content-center.align-items-center.bgr2-tema1
+    .row.justify-content-center.align-items-center.bgr2-tema1.mb-5
       .col-lg-12
         SlyderB(:datos="datosSlyder").p-4
 
-    separador
-
-    #t_3_5
-
-    .titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 3.5 Estrategias de divulgación
+    h2 Estrategias de divulgación
 
     .row.justify-content-center.align-items-center.p-4.bgr3-tema1.mt-5
       .col-lg-4
@@ -220,9 +196,7 @@
 
     .row.justify-content-center.align-items-center.p-4.bgr1-final-tema3.text-white.mt-5
       .col-lg-7.p-4
-        p En el componente formativo “Manejo, conservación y protección de la fauna silvestre” se abordaron temas relacionados con afectaciones y riesgos de la fauna silvestre, el cambio climático, especies exóticas invasoras, tráfico ilegal, monitoreo técnico y participativo de la fauna silvestre, entre otras temáticas muy importantes orientadas al buen manejo y protección de la fauna silvestre.
- 
-        p De esta manera se da fin al componente y se extiende la invitación, estimado aprendiz, a leer detenidamente el capítulo y realizar las actividades incluidas para evaluar sus conocimientos.
+        p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
       
       .col-lg-4
         figure
@@ -238,32 +212,32 @@ export default {
     datosSlyder: [
       {
         texto:
-          'Custodio: entidad o persona de carácter público o privado encargada de proteger y manejar las áreas naturales en donde se dan las actividades ecoturísticas. El custodio se encarga también de diseñar la reglamentación que rige dichas actividades.',
+          '<b>Custodio:</b> entidad o persona de carácter público o privado encargada de proteger y manejar las áreas naturales en donde se dan las actividades ecoturísticas. El custodio se encarga también de diseñar la reglamentación que rige dichas actividades.',
         imagen: require('@/assets/curso/temas/tema3/img17.svg'),
       },
       {
         texto:
-          'Comunidad local: organización de personas que prestan bienes o servicios ecoturísticos en su lugar de origen. ',
+          '<b>Comunidad local:</b> organización de personas que prestan bienes o servicios ecoturísticos en su lugar de origen. ',
         imagen: require('@/assets/curso/temas/tema3/img18.svg'),
       },
       {
         texto:
-          'Ecoturista: persona que busca recreación, esparcimiento y educación cuando visita un ecosistema determinado.',
+          '<b>Ecoturista:</b> persona que busca recreación, esparcimiento y educación cuando visita un ecosistema determinado.',
         imagen: require('@/assets/curso/temas/tema3/img19.svg'),
       },
       {
         texto:
-          'Guía ecoturístico: poblador local que presta los servicios de guía con el fin de orientar, conducir, instruir, asistir al ecoturista durante el tiempo que esté presente en el área natural.',
+          '<b>Guía ecoturístico:</b> poblador local que presta los servicios de guía con el fin de orientar, conducir, instruir, asistir al ecoturista durante el tiempo que esté presente en el área natural.',
         imagen: require('@/assets/curso/temas/tema3/img20.svg'),
       },
       {
         texto:
-          'Promotor: es la persona, empresa o institución encargada de promover los productos ecoturísticos en mercados nacionales e internacionales.',
+          '<b>Promotor:</b> es la persona, empresa o institución encargada de promover los productos ecoturísticos en mercados nacionales e internacionales.',
         imagen: require('@/assets/curso/temas/tema3/img21.svg'),
       },
       {
         texto:
-          'Actividades y servicios ecoturísticos: son aquellos relacionados con la atención y formación de los visitantes en un área con atractivo natural especial; por ejemplo, el alojamiento y los servicios de hospedaje, la interpretación del patrimonio natural y cultural, transporte, alimentación, ecoactividades.',
+          '<b>Actividades y servicios ecoturísticos:</b> son aquellos relacionados con la atención y formación de los visitantes en un área con atractivo natural especial; por ejemplo, el alojamiento y los servicios de hospedaje, la interpretación del patrimonio natural y cultural, transporte, alimentación, ecoactividades.',
         imagen: require('@/assets/curso/temas/tema3/img22.svg'),
       },
     ],

@@ -11,11 +11,9 @@
 
     .row.justify-content-center.align-items-center.p-4.bgr1-intro.text-white
       .col-lg-7.p-4
-        p Estimado aprendiz: le damos la bienvenida a esta nueva experiencia de aprendizaje. El siguiente es el componente formativo de Manejo, conservación y protección de la fauna silvestre, en el cual se verán temas relacionados con el cambio climático, el tráfico ilegal de algunas especies, marco normativo y regulatorio en Colombia; también conoceremos algunos tipos de especies exóticas e invasoras, aspectos importantes frente al turismo de naturaleza y algunas estrategias de conservación de la fauna silvestre, entre otras temáticas relevantes.
+        p Apreciado aprendiz, bienvenido a este componente formativo, donde se apropiará de temas relacionados con el cambio climático, el tráfico ilegal de algunas especies, y el marco normativo y regulatorio en Colombia; también podrá conocer, mediante el estudio responsable del mismo, algunos tipos de especies exóticas e invasoras, aspectos importantes frente al turismo de la naturaleza y algunas estrategias de conservación de la fauna silvestre, entre otras.
 
-        p A continuación encontrará información útil para introducir y contextualizar las diferentes temáticas que serán tratadas. Le invitamos a prestar mucha atención al siguiente video. 
-
-        p ¡Éxitos en esta nueva experiencia!
+        p En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
 
       .col-lg-4
         figure
