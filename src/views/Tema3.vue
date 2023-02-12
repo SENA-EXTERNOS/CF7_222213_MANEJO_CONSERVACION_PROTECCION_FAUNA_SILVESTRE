@@ -173,7 +173,7 @@
               
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img16.svg')})`}")
     br
-    h3.mt-5 Ecoturismo
+    h2.mt-5 Ecoturismo
 
     .row.mt-5      
       p Es aquel que se realiza con objetivos de recreación, esparcimiento y educación del visitante por medio de la observación y el estudio de los valores naturales y los aspectos culturales que se relacionan con ellos. Este concepto define una actividad específica y la diferencia de otras actividades de turismo de naturaleza. Dentro del ecoturismo se encuentran diferentes actores que van desde entes gubernamentales hasta los pobladores de un ecosistema. Sus funciones se clasifican en:

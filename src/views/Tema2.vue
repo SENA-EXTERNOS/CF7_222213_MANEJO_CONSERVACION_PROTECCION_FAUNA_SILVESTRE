@@ -153,8 +153,8 @@
             h4 Registro de historias orales
             p Es el registro de datos a través de historias o relatos de los pobladores de la zona. No se trata de una técnica en la que el investigador aplica una entrevista o encuesta; por el contrario, se trata de una narración libre de parte de quien la cuenta y que brinda la posibilidad al investigador de ser parte de una historia más completa por la cantidad de detalles.
 
-          .tarjeta.clr-paleYellow.p-4(titulo="<i>Test </i>Proyectivos")
-            h4 <i>Test</i> Proyectivos
+          .tarjeta.clr-paleYellow.p-4(titulo="<i>Test </i>Proyectivo")
+            h4 <i>Test</i> Proyectivo
             p Consiste en presentar una foto, un dibujo o una ilustración para que un entrevistado o grupo de entrevistados hablen espontáneamente de lo que identifican en estos y luego con tareas y preguntas sencillas guiar el tema de análisis, permitiendo identificar aspectos de la historia natural de un lugar posibilitando la implementación de estrategias que permitan clasificar a las especies presentes en un ecosistema.
 
           .tarjeta.clr-paleYellow.p-4(titulo="Entrevistas")
@@ -162,11 +162,12 @@
             p Se trata de buscar información por medio de preguntas a una persona clave en la comunidad. Las preguntas permiten obtener datos y otro tipo de información subjetiva como valores, costumbres y actitudes relacionados con la vida en el ecosistema y las prácticas que se ejecutan dentro de él. Entre los tipos de entrevistas se pueden distinguir dos: aquellas estructuradas, que siguen un cuestionario elaborado con antelación; y entrevistas semiestructuradas, que también siguen un guion, pero brindan la posibilidad al entrevistador de realizar preguntas diferentes a las del cuestionario con el fin de ampliar la información que está siendo proporcionada. Este tipo de entrevista tiene preguntas cerradas y preguntas abiertas o de opinión.
 
 
-    .row.justify-content-center.align-items-center.mt-5
+    .row.justify-content-center.align-items-center
+      p.mb-5 Para ampliar información y descubrir ejemplos, lo invitamos a revisar el material complementario propuesto.    
       .col-lg-8
-        p Para ampliar información y descubrir ejemplos, lo invitamos a revisar el material complementario propuesto.
 
-        p #[b Registros participativos de caza, pesca y recolección de productos vegetales no maderables:]
+
+        h3 Registros participativos de caza, pesca y recolección de productos vegetales no maderables
 
         p Requiere compromiso de las familias que hacen parte de las comunidades porque serán ellas las encargadas de entregar fichas con información de las actividades diarias de cazadores, pescadores y recolectores mediante el registro de información como la cantidad de carne de animales silvestres que se consume, la cantidad de productos vegetales que son recolectados, la fecha o temporada en que se está realizando la caza, pesca o recolección; las especies que fueron objeto de caza, pesca o recolección; los lugares en donde estas actividades se llevaron a cabo y las armas utilizadas para tal fin.
         
