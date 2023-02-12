@@ -163,7 +163,7 @@
 
 
     .row.justify-content-center.align-items-center
-      p.mb-5 Para ampliar información y descubrir ejemplos, lo invitamos a revisar el material complementario propuesto.    
+      h3.mb-5 Para ampliar información y descubrir ejemplos, lo invitamos a revisar el material complementario propuesto.    
       .col-lg-8
 
 

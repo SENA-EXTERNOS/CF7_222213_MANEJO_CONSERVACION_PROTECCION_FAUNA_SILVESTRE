@@ -92,7 +92,7 @@ export default {
     {
       tema: 'Monitoreo técnico y participativo de la fauna silvestre',
       referencia:
-        'Ministerio del Ambiente (2016).<b> Monitoreo biológico.</b> Curso: <b>Gestión de la vida silvestre en el Ecuador.</b> ',
+        'Ministerio del Ambiente (2016).<i> Monitoreo biológico.</i> Curso: <i>Gestión de la vida silvestre en el Ecuador.</i> ',
       tipo: 'Guía en pdf',
       link:
         'https://es.slideshare.net/crissanty1606/unidad-3-monitoreo-biologico',
@@ -100,7 +100,7 @@ export default {
     {
       tema: 'Conservación, protección y manejo de la fauna silvestre',
       referencia:
-        'Franquesa, M. (s.f.). <b>Los medios como herramienta en la conservación de la biodiversidad. INECOL. </b>',
+        'Franquesa, M. (s.f.). <i>Los medios como herramienta en la conservación de la biodiversidad. INECOL. </i>',
       tipo: 'Página web',
       link:
         'https://www.inecol.mx/inecol/index.php/es/ct-menu-item-25/ct-menu-item-27/17-ciencia-hoy/160-los-medios-como-herramienta-en-la-conservacion-de-la-biodiversidad ',
@@ -108,7 +108,7 @@ export default {
     {
       tema: 'Conservación, protección y manejo de la fauna silvestre',
       referencia:
-        'Conrado, L. (2019). <b>Validación de protocolos de manejo de fauna silvestre en el hogar de paso del centro agroecológico en el departamento de La Guajira. </b>[Tesis de pregrado, Universidad Cooperativa de Colombia, Colombia]. Repositorio Institucional UCC.',
+        'Conrado, L. (2019). <i>Validación de protocolos de manejo de fauna silvestre en el hogar de paso del centro agroecológico en el departamento de La Guajira. </i>[Tesis de pregrado, Universidad Cooperativa de Colombia, Colombia]. Repositorio Institucional UCC.',
       tipo: 'Tesis ',
       link:
         'https://repository.ucc.edu.co/bitstream/20.500.12494/10576/1/2019_validacion_protocolos.pdf',
@@ -116,7 +116,7 @@ export default {
     {
       tema: 'Conservación, protección y manejo de la fauna silvestre ',
       referencia:
-        'Centro Federado de Ciencias Forestales-UNALM (2020). <b>VIDEOCONFERENCIA: "Experiencias en Manejo de Fauna Silvestre" - Mg. Sc. Joao Freitas</b> [video]. YouTube. ',
+        'Centro Federado de Ciencias Forestales-UNALM (2020). <i>VIDEOCONFERENCIA: "Experiencias en Manejo de Fauna Silvestre" - Mg. Sc. Joao Freitas</i> [video]. YouTube. ',
       tipo: 'Videoconferencia ',
       link: 'https://www.youtube.com/watch?v=vxjiqXod3mQ ',
     },
