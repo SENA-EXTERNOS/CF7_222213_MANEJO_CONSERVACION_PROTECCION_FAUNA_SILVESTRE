@@ -153,8 +153,8 @@
             h4 Registro de historias orales
             p Es el registro de datos a través de historias o relatos de los pobladores de la zona. No se trata de una técnica en la que el investigador aplica una entrevista o encuesta; por el contrario, se trata de una narración libre de parte de quien la cuenta y que brinda la posibilidad al investigador de ser parte de una historia más completa por la cantidad de detalles.
 
-          .tarjeta.clr-paleYellow.p-4(titulo="<i>Test </i>Proyectivo")
-            h4 <i>Test</i> Proyectivo
+          .tarjeta.clr-paleYellow.p-4(titulo="<i>Test </i>proyectivo")
+            h4 <i>Test</i> proyectivo
             p Consiste en presentar una foto, un dibujo o una ilustración para que un entrevistado o grupo de entrevistados hablen espontáneamente de lo que identifican en estos y luego con tareas y preguntas sencillas guiar el tema de análisis, permitiendo identificar aspectos de la historia natural de un lugar posibilitando la implementación de estrategias que permitan clasificar a las especies presentes en un ecosistema.
 
           .tarjeta.clr-paleYellow.p-4(titulo="Entrevistas")
@@ -163,7 +163,7 @@
 
 
     .row.justify-content-center.align-items-center
-      h3.mb-5 Para ampliar información y descubrir ejemplos, lo invitamos a revisar el material complementario propuesto.    
+      p.mb-5 Para ampliar información y descubrir ejemplos, lo invitamos a revisar el material complementario propuesto.    
       .col-lg-8
 
 
