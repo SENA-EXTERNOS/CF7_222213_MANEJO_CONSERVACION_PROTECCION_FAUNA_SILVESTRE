@@ -136,7 +136,7 @@
     h2.mt-5 Marco regulatorio y sancionatorio
 
     .row
-      p Desde 1972 hasta el 2021 en Colombia se han expedido once leyes y decretos relacionados con la z silvestre. Cada cual reglamenta:
+      p Desde 1972 hasta el 2021 en Colombia se han expedido once leyes y decretos relacionados con la fauna silvestre. Cada cual reglamenta:
 
     .bg--img_03
       .row.justify-content-center.mb-4

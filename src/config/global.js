@@ -111,7 +111,7 @@ export default {
         'Conrado, L. (2019). <i>Validación de protocolos de manejo de fauna silvestre en el hogar de paso del centro agroecológico en el departamento de La Guajira. </i>[Tesis de pregrado, Universidad Cooperativa de Colombia, Colombia]. Repositorio Institucional UCC.',
       tipo: 'Tesis ',
       link:
-        'https://repository.ucc.edu.co/bitstream/20.500.12494/10576/1/2019_validacion_protocolos.pdf',
+        'https://repository.ucc.edu.co/server/api/core/bitstreams/c4aca18c-6eb2-443f-9fdc-9be21bfeeff9/content',
     },
     {
       tema: 'Conservación, protección y manejo de la fauna silvestre ',
